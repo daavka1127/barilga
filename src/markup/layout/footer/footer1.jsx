@@ -21,8 +21,8 @@ class Footer1 extends Component{
 											<span className="icon-cell"><img src={IconImg3} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<h5 className="ttr-tilte">Address</h5>
-											<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+											<h5 className="ttr-tilte">Хаяг</h5>
+											<p>УБ хот Баянгол 9-р хороо 9-р байр 99 тоот</p>
 										</div>
 									</div>
 								</div>
@@ -32,8 +32,8 @@ class Footer1 extends Component{
 											<span className="icon-cell"><img src={IconImg1} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<h5 className="ttr-tilte">Contact Number</h5>
-											<p>+001 123 456 790 <br/>(02) 3424 44 00</p>
+											<h5 className="ttr-tilte">Утасны дугаар</h5>
+											<p>+976 99999999<br/>+976 88888888</p>
 										</div>
 									</div>
 								</div>
@@ -43,13 +43,10 @@ class Footer1 extends Component{
 											<span className="icon-cell"><img src={IconImg2} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<h5 className="ttr-tilte">Email Address</h5>
+											<h5 className="ttr-tilte">И-мэйл хаяг</h5>
 											<p>info@yourdomain.com <br/>example@support.com</p>
 										</div>
 									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 text-left text-lg-right">
-									<Link to="get-in-touch" className="btn btn-long d-sm-inline-block">Get In Touch</Link>
 								</div>
 							</div>
 						</div>
