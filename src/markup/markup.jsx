@@ -8,6 +8,7 @@ import Index from './pages/';
 import Index2 from './pages/index-2';
 import Index3 from './pages/index-3';
 import Index4 from './pages/index-4';
+import IndexDadaa from './pages/index-dadaa';
 import About1 from './pages/about-1';
 import About2 from './pages/about-2';
 import About3 from './pages/about-3';
@@ -80,6 +81,7 @@ class Markup extends Component{
 					<Switch>
 						
 						<Route path='/' exact component={Index} />
+						<Route path='/index-dadaa' exact component={IndexDadaa} />
 						<Route path='/index-2' exact component={Index2} />
 						<Route path='/index-3' exact component={Index3} />
 						<Route path='/index-4' exact component={Index4} />
