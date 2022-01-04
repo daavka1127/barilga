@@ -19,6 +19,7 @@ class Header1 extends Component{
             nav.classList.toggle("show");
         }
 
+
         btn.addEventListener('click', toggleFunc);
 
         // Mobile Submenu open close function
@@ -26,6 +27,13 @@ class Header1 extends Component{
         for (var y = 0; y < navMenu.length; y++) {
             navMenu[y].addEventListener('click', function () { menuClick(this) });
         }
+
+    function toggleFunc() {
+      btn.classList.toggle("open");
+      nav.classList.toggle("show");
+    }
+
+    btn.addEventListener("click", toggleFunc);
 
         function menuClick(current) {
             const active = current.classList.contains("open")
@@ -136,6 +144,9 @@ class Header1 extends Component{
 			</>
 		);
 	}
-}
+  }
+
+  
+
 
 export default Header1;
