@@ -31,10 +31,10 @@ import PortImg2 from "../../images/portfolio/portfolio-3/image_2.jpg"
 import PortImg3 from "../../images/portfolio/portfolio-3/image_3.jpg"
 import PortImg4 from "../../images/portfolio/portfolio-3/image_4.jpg"
 import PortImg5 from "../../images/portfolio/portfolio-3/image_5.jpg"
-import TeamPic1 from "../../images/team/pic1.jpg"
-import TeamPic2 from "../../images/team/pic2.jpg"
-import TeamPic3 from "../../images/team/pic3.jpg"
-import TeamPic4 from "../../images/team/pic4.jpg"
+import TeamPic1 from "../../images/team/122.jpg"
+import TeamPic2 from "../../images/team/pic1.jpg"
+import TeamPic3 from "../../images/team/pic15.jpg"
+import TeamPic4 from "../../images/team/a.jpg"
 
 class Index2 extends Component {
 	
@@ -308,8 +308,8 @@ class Index2 extends Component {
 						<div className="section-area section-sp1 team-page bg-white" style={{backgroundImage:"url("+BackBg2+")", backgroundPosition:"bottom", backgroundSize:"100%"}}>
 							<div className="container">
 								<div className="heading-bx text-center">
-									<h6 className="title-ext m-b0">Our Team Member</h6>
-									<h2 className="title-head m-b0">Meet Our Awesome <br/>Team Member</h2>
+									<h6 className="title-ext m-b0">Компанийн удирдлага</h6>
+									<h2 className="title-head m-b0">Удирдлага</h2>
 									<div className="ttr-separator sepimg"></div>
 								</div>
 								<div className="row">
@@ -325,8 +325,8 @@ class Index2 extends Component {
 												</ul>
 											</div>
 											<div className="team-info">
-												<h4 className="title"><Link to="#">Michel H. Bohman</Link></h4>
-												<span>CEO & Founder</span>
+												<h4 className="title"><Link to="#">Д.БОЛД</Link></h4>
+												<span>ГҮЙЦЭТГЭХ ЗАХИРАЛ</span>
 											</div>
 										</div>
 									</div>
@@ -342,8 +342,8 @@ class Index2 extends Component {
 												</ul>
 											</div>
 											<div className="team-info">
-												<h4 className="title"><Link to="#">Sonar Z. Moyna</Link></h4>
-												<span>Engineer</span>
+												<h4 className="title"><Link to="#">У.ГАНБАТ</Link></h4>
+												<span>ДЭД ЗАХИРАЛ</span>
 											</div>
 										</div>
 									</div>
@@ -359,8 +359,8 @@ class Index2 extends Component {
 												</ul>
 											</div>
 											<div className="team-info">
-												<h4 className="title"><Link to="#">Kalina GH. Mollika</Link></h4>
-												<span>Worker</span>
+												<h4 className="title"><Link to="#">А.БАТ</Link></h4>
+												<span>ЕРӨНХИЙ ИНЖЕНЕР</span>
 											</div>
 										</div>
 									</div>
@@ -373,11 +373,11 @@ class Index2 extends Component {
 													<li><Link to="#"><i className="fa fa-google-plus"></i></Link></li>
 													<li><Link to="#"><i className="fa fa-linkedin"></i></Link></li>
 													<li><Link to="#"><i className="fa fa-twitter"></i></Link></li>
-												</ul>
+												</ul>	
 											</div>
 											<div className="team-info">
-												<h4 className="title"><Link to="#">Falikaz DJ. Pauls</Link></h4>
-												<span>Helper</span>
+												<h4 className="title"><Link to="#">Г.ЧИНБАТ</Link></h4>
+												<span>АХЛАХ НЯГТЛАН БОДОГЧ</span>
 											</div>
 										</div>
 									</div>

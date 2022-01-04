@@ -4,55 +4,55 @@ import Masonry from 'react-masonry-component';
 import SimpleReactLightbox, {SRLWrapper, useLightbox} from 'simple-react-lightbox';
 
 // Images
-import PortImg1 from "../../../images/portfolio/agriculture/image_1.jpg"
-import PortImg2 from "../../../images/portfolio/agriculture/image_2.jpg"
-import PortImg3 from "../../../images/portfolio/agriculture/image_3.jpg"
-import PortImg4 from "../../../images/portfolio/agriculture/image_4.jpg"
-import PortImg5 from "../../../images/portfolio/agriculture/image_5.jpg"
-import PortImg6 from "../../../images/portfolio/agriculture/image_6.jpg"
+import PortImg1 from "../../../images/portfolio/agriculture/7.png"
+import PortImg2 from "../../../images/portfolio/agriculture/8.png"
+import PortImg3 from "../../../images/portfolio/agriculture/6.png"
+import PortImg4 from "../../../images/portfolio/agriculture/0.png"
+import PortImg5 from "../../../images/portfolio/agriculture/3.png"
+import PortImg6 from "../../../images/portfolio/agriculture/5.png"
 
 // Portfolio Content
 const content = [
 	{ 
 		thumb: PortImg1, 
 		LightImg: PortImg1,
-		tag: ['Eco Product',],
-		title: "Eco Product",
-		exetitle: "Agricultural",
+		tag: ['НИЙСЛЭЛИЙН ТӨР ЗАХИРГААНЫ АВТОБААЗЫН ОРОН СУУЦ',],
+		title: "НИЙСЛЭЛИЙН ТӨР ЗАХИРГААНЫ АВТОБААЗЫН ОРОН СУУЦ",
+		exetitle: "",
 	},
 	{ 
 		thumb: PortImg2,
 		LightImg: PortImg2,
-		tag: ['Fruits',],
-		title: "Clear Water for Irrigation",
-		exetitle: "Fruits",
+		tag: ['',],
+		title: "НАЛАЙХ 55 АЙЛЫН ОРОН СУУЦ",
+		exetitle: "",
 	},
 	{ 
 		thumb: PortImg3,
 		LightImg: PortImg3,
-		tag: ['Vegetables',],
-		title: "Best Products",
-		exetitle: "Eco Product",
+		tag: ['',],
+		title: "НИЙСЛЭЛИЙН ТӨР ЗАХИРГААНЫ АВТОБААЗЫН ОРОН СУУЦ",
+		exetitle: "",
 	},
 	{ 
 		thumb: PortImg4,
 		LightImg: PortImg4,
-		tag: ['Agricultural',],
-		title: "Spring & Fall Cleanup",
-		exetitle: "Fruits",
+		tag: ['',],
+		title: "DREAM APARMENT",
+		exetitle: "",
 	},
 	{ 
 		thumb: PortImg5,
 		LightImg: PortImg5,
-		tag: ['Eco Product',],
-		title: "Design & Planting",
-		exetitle: "Eco Product",
+		tag: ['',],
+		title: "BUDDHA VISTA Хотхон",
+		exetitle: "",
 	},
 	{ 
 		thumb: PortImg6,
 		LightImg: PortImg6,
 		tag: ['Fruits',],
-		title: "Growing Fruits and Vegetables",
+		title: "ЗАХИАЛГАТ БАРИЛГА",
 		exetitle: "Agricultural",
 	},
 ]
@@ -108,7 +108,7 @@ function PortfolioContent(){
 			
 			<>
 			
-			<div className="feature-filters clearfix left m-b40 style1">
+			{/* <div className="feature-filters clearfix left m-b40 style1">
 				<ul className="filters" data-toggle="buttons">
 					<FilterList 
 						dataFilter="All Cases" 
@@ -136,7 +136,7 @@ function PortfolioContent(){
 						activeFilter={ tag === 'Agricultural' ? true : false }	
 					/>
 				</ul>
-			</div>
+			</div> */}
 			
 			<SimpleReactLightbox>
 				<SRLWrapper options={options}>

@@ -38,8 +38,8 @@ class Index4 extends Component {
 						<div className="section-area section-sp1 bg-gray">
 							<div className="container">
 								<div className="heading-bx text-center">
-									<h6 className="title-ext m-b0">Projects View</h6>
-									<h2 className="title-head m-b0">Our Latest Projects</h2>
+									<h6 className="title-ext m-b0"> Хийсэн ажлууд</h6>
+									<h2 className="title-head m-b0">БИДНИЙ ХИЙСЭН АЖЛУУД</h2>
 									<div className="ttr-separator sepimg"></div>
 								</div>
 								<Projects />
