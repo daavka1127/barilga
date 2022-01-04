@@ -14,7 +14,6 @@ class Header1 extends Component{
         // Mobile Menu sidebar function
         var btn = document.querySelector('.menuicon');
         var nav = document.querySelector('.menu-links');
-       
         function toggleFunc() {
             btn.classList.toggle("open");
             nav.classList.toggle("show");
@@ -65,12 +64,8 @@ class Header1 extends Component{
 								{/* <!-- Navigation Menu ==== --> */}
 								<div className="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">
 									<div className="menu-logo">
-										
 										<Link to="/index-dadaa"><img src={Logo} alt=""/></Link>
 									</div>
-									
-								
-
 									<ul className="nav navbar-nav">	
 										<li className="active"><Link to="/index-dadaa">Нүүр</Link></li>
 										<li className="has-mega-menu "><Link to="#">Бидний тухай<i className="fa fa-chevron-down"></i></Link>
