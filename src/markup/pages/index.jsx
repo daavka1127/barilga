@@ -42,7 +42,7 @@ class Index extends Component {
 						
 						<div className="section-area process-area">
 							<div className="container">
-								<Link to="#" className="project-btn"><i className="icon ti-home"></i> View All Project <i className="ti-arrow-right right-icon"></i></Link>
+								<Link to="#" className="project-btn"><i className="icon ti-home"></i> View All Project<i className="ti-arrow-right right-icon"></i></Link>
 								<ServiceSlider1 />
 							</div>
 						</div>

@@ -14,9 +14,9 @@ class Services2 extends Component{
 										<span className="icon-cell"><i className="ti-world"></i></span> 
 									</div>
 									<div className="icon-content">
-										<h4 className="ttr-tilte">Who We Are</h4>
+										<h4 className="ttr-tilte">Барилгын төслийн менежмент</h4>
 										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-										<Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link>
+										{/* <Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link> */}
 									</div>
 									<i className="ti-world bg-icon"></i>
 								</div>
@@ -27,9 +27,9 @@ class Services2 extends Component{
 										<span className="icon-cell"><i className="ti-shield"></i></span> 
 									</div>
 									<div className="icon-content">
-										<h4 className="ttr-tilte">Our Security</h4>
+										<h4 className="ttr-tilte">Инженеринг, Барилга угсралт</h4>
 										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-										<Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link>
+										{/* <Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link> */}
 									</div>
 									<i className="ti-shield bg-icon"></i>
 								</div>
@@ -40,9 +40,9 @@ class Services2 extends Component{
 										<span className="icon-cell"><i className="ti-panel"></i></span> 
 									</div>
 									<div className="icon-content">
-										<h4 className="ttr-tilte">Our Process</h4>
+										<h4 className="ttr-tilte">Зураг төсөл<p/></h4>
 										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-										<Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link>
+										{/* <Link to="services-details" className="feature-btn"><i className="la la-long-arrow-alt-right"></i></Link> */}
 									</div>
 									<i className="ti-panel bg-icon"></i>
 								</div>

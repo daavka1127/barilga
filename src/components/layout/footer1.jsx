@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import LogoWhite from "../../../images/logo-white.png"
-import IconImg1 from "../../../images/icon/contact/icon1.png"
-import IconImg2 from "../../../images/icon/contact/icon2.png"
-import IconImg3 from "../../../images/icon/contact/icon3.png"
+import LogoWhite from "../../images/logo-white.png"
+import IconImg1 from "../../images/icon/contact/icon1.png"
+import IconImg2 from "../../images/icon/contact/icon2.png"
+import IconImg3 from "../../images/icon/contact/icon3.png"
 
 class Footer1 extends Component{
 	render(){
@@ -50,7 +50,7 @@ class Footer1 extends Component{
 								</div>
 							</div>
 						</div>
-						<div className="container">
+						{/* <div className="container">
 							<div className="row">
 								<div className="col-12 col-lg-3 col-md-5 col-sm-6">
 									<div className="widget footer_widget">
@@ -103,7 +103,7 @@ class Footer1 extends Component{
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<div className="footer-bottom">
 						<div className="container">

@@ -11,32 +11,32 @@ import PortImg4 from "../../../images/portfolio/portfolio-1/image_4.jpg"
 
 // Content
 const content = [
-	{ 
-		thumb: PortImg1, 
+	{
+		thumb: PortImg1,
 		LightImg: PortImg1,
 		title: "Agricultural",
 		exetitle: "Factory",
 	},
-	{ 
+	{
 		thumb: PortImg2,
 		LightImg: PortImg2,
 		title: "Material Science",
 		exetitle: "Agricultural",
 	},
-	{ 
+	{
 		thumb: PortImg3,
 		LightImg: PortImg3,
 		title: "Chemical Research",
 		exetitle: "Material",
 	},
-	{ 
+	{
 		thumb: PortImg4,
 		LightImg: PortImg4,
 		title: "Mechanical",
 		exetitle: "Research",
 	},
-	{ 
-		thumb: PortImg1, 
+	{
+		thumb: PortImg1,
 		LightImg: PortImg1,
 		title: "Agricultural",
 		exetitle: "Factory",
@@ -76,7 +76,7 @@ const options = {
 
 class ProjectSlider1 extends Component{
 	render(){
-		
+
 		const settings = {
 			infinite: true,
 			speed: 500,
@@ -109,7 +109,7 @@ class ProjectSlider1 extends Component{
 				}
 			]
 		};
-		
+
 		return(
 			<>
 				<SimpleReactLightbox>
@@ -123,7 +123,7 @@ class ProjectSlider1 extends Component{
 										</div>
 										<div className="portfolio-info">
 											<h4 className="title"><Link to="projects-single-1">{item.title}</Link></h4>
-											<span className="exe-title">{item.exetitle}</span>	
+											<span className="exe-title">{item.exetitle}</span>
 											<MagnificAnchor />
 										</div>
 									</div>
