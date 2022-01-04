@@ -68,6 +68,8 @@ import SolutionOilAndGas from './pages/solution-oil-and-gas';
 import SolutionPowerAndEnergy from './pages/solution-power-and-energy';
 import Team from './pages/team';
 
+import NewsDetails from '../components/News/news-details';
+
 
 
 class Markup extends Component{
@@ -144,6 +146,7 @@ class Markup extends Component{
 						<Route path='/solution-power-and-energy' component={SolutionPowerAndEnergy} />
 						<Route path='/team' component={Team} />					
 						
+						<Route path='/news-details' component={NewsDetails} />
 					</Switch>
 				</BrowserRouter>
 				
