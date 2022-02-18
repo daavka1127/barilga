@@ -324,8 +324,14 @@
 }
 .action-box img,
 .ttr-post-media img {
-    width: 100%;
-    height: auto;
+    overflow: hidden;
+    vertical-align: middle;
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      height: 250px;
+      border-bottom: 1px solid #329dc8;
+      border-bottom-style: double;
 }
 /* Box Background */
 .ttr-box-bg{

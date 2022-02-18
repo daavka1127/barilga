@@ -2,6 +2,7 @@
 .action-box {
     overflow: hidden;
     position: relative;
+    
 }
 .ttr-box:hover .ttr-info-has,
 .action-box:hover .ttr-info-has {

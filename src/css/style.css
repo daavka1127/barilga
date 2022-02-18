@@ -2175,6 +2175,7 @@
 .recent-news {
   margin-bottom: 50px;
   position: relative;
+  
 }
 .blog-post .media-post li a,
 .blog-single .media-post li a,
@@ -7749,12 +7750,13 @@ footer.footer-white .btn {
   cursor: pointer;
 }
 .portfolio-box.style-1 {
-  margin-bottom: 4px;
-  transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+float:left;
+	width:100%;
+	padding: 8px;
+	transition: box-shadow .3s;
+	/*border-radius:10px;*/
+	border: 1px solid #ccc;
+	background: #fff;
 }
 .portfolio-box.style-1 .magnific-anchor {
   position: absolute;
@@ -7782,6 +7784,12 @@ footer.footer-white .btn {
 .portfolio-box.style-1 .portfolio-media {
   overflow: hidden;
   vertical-align: middle;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #329dc8;
+    border-bottom-style: double;
 }
 .portfolio-box.style-3 .portfolio-media img,
 .portfolio-box.style-2 .portfolio-media img,
@@ -7808,12 +7816,17 @@ footer.footer-white .btn {
 }
 .portfolio-box.style-3 .portfolio-info,
 .portfolio-box.style-1 .portfolio-info {
-  background: #020d26;
-  padding: 20px 20px;
+ float:left;
+	width:100%;
+	height:70px;
+	overflow:hidden;
+	margin-bottom:15px;
+  padding: 10px 1px;
 }
 .portfolio-box.style-3 .portfolio-info .title,
 .portfolio-box.style-1 .portfolio-info .title {
-  font-size: 22px;
+  font-size: 18px;
+  text-align: center;
   line-height: 30px;
   margin-bottom: 5px;
 }
