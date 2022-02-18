@@ -113,7 +113,7 @@ h4,
 h5,
 h6 {
   color: #020d26;
-  font-family: "CerebriSans";
+  /* font-family: "CerebriSans"; */
   margin-top: 0;
 }
 h1 a,
